@@ -76,12 +76,14 @@ String joinAuthString(String secretId, String keyTime, String headerList, String
 /// 主函数
 String calculateAuthString(
     String method, String path,
-    Map<String, dynamic> queryParams, Map<String, dynamic> headers,
+    Map<String, dynamic>? queryParams, Map<String, String>? headers,
     String secretId, String secretKey,
     {
       int? beginTime,
       int? expire,
     }){
+  queryParams = queryParams ?? {};
+  headers = headers ?? {};
   beginTime = beginTime ?? DateTime.now().millisecondsSinceEpoch ~/ 1000;
   expire = expire ?? 3600;
   // 步骤1：生成KeyTime

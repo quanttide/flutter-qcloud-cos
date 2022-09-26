@@ -12,7 +12,7 @@ void main(){
   String host = 'service.cos.myqcloud.com';
   String path = '/';
   Map<String, dynamic> queryParams = {};
-  Map<String, dynamic> headers = {'Content-Type': 'application/xml', 'Host': host};
+  Map<String, String> headers = {'Content-Type': 'application/xml', 'Host': host};
   int beginTime = 1648134580;
   int expire = 3600;
 
