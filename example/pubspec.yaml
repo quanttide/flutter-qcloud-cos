@@ -33,7 +33,7 @@ dependencies:
     sdk: flutter
   flutter_qcloud_cos:
     path: ..
-
+  flutter_markdown: ^0.6.12
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

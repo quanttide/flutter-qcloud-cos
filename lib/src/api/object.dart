@@ -4,5 +4,7 @@ import 'base.dart';
 
 
 mixin QCloudCosObjectAPIMixin on QCloudCosBaseAPIClient {
+  getObject(){
 
+  }
 }

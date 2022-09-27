@@ -11,5 +11,8 @@ class QCloudCosAPIClient extends QCloudCosBaseAPIClient with
     QCloudCosServiceAPIMixin,
     QCloudCosBucketAPIMixin,
     QCloudCosObjectAPIMixin {
-
+  QCloudCosAPIClient({
+    required super.secretId,
+    required super.secretKey
+  });
 }
