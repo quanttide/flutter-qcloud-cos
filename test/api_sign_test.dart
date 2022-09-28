@@ -2,7 +2,7 @@
 
 import "package:flutter_test/flutter_test.dart";
 
-import "../lib/src/api/sign.dart";
+import 'package:flutter_qcloud_cos/src/api/sign.dart';
 
 
 void main(){
