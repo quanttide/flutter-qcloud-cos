@@ -1,7 +1,8 @@
 name: flutter_qcloud_cos
 description: Flutter SDK for QCloud COS
-version: 0.1.0-alpha.1
+version: 0.1.0-alpha.2
 homepage: https://github.com/quanttide/flutter-qcloud-cos.git
+license: Apache-2.0
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
