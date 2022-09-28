@@ -1,3 +1,3 @@
-## 0.0.1
+# CHANGELOG
 
-* TODO: Describe initial release.
+## [0.1.0] - 2022-09
